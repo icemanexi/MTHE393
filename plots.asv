@@ -1,0 +1,16 @@
+%% plot the comparison between measured bode plot and estimated plot
+
+%f1 = openfig("bodePlot.fig");
+
+%xdat = f2.XData;
+
+%f1;
+%hold on
+s = tf("s");
+sys = 1.8*18000000*(s + 0.003)/((s+0.25)*(s+15)*(s+1000));
+bode(sys);
+%hold on
+% controller illustrations : step response, harmonic response
+% different iterations of controller design, show how it improves
+% 
+
