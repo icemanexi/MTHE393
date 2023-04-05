@@ -16,7 +16,7 @@ freq_list = [];
 ps_list = [];
 amp_list = [];
 
-for i = 4.4:-0.2:-3.4
+for i = 1:2
     frequency = 10^i;
     
     if frequency == 0 
